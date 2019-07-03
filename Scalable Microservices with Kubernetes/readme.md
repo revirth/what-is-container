@@ -1,6 +1,4 @@
-## Scalable Microservices with Kubernetes
-
-https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
+## [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
 ### Google Compute Engine
 
@@ -13,9 +11,9 @@ gcloud config set compute/zone `ZONE`
 gcloud config list
 ```
 
-### 12 Factor https://12factor.net/
+### [12 Factor](https://12factor.net/)
 
-![https://image.slidesharecdn.com/12factor-150114020448-conversion-gate01/95/the-12-factor-app-1-638.jpg?cb=1421201591](https://www.slideshare.net/slideshow/embed_code/key/tVU2OGq2bPzF1P)
+[![12 factor slide share](https://image.slidesharecdn.com/12factor-150114020448-conversion-gate01/95/the-12-factor-app-1-638.jpg?cb=1421201591)](https://www.slideshare.net/slideshow/embed_code/key/tVU2OGq2bPzF1P)
 
 [![Image result for twelve factor app](https://0901.static.prezi.com/preview/v2/7ojxhzhougi3uurlmhz57gja4d6jc3sachvcdoaizecfr3dnitcq_3_0.png)](https://prezi.com/8uldpq91vm4e/the-twelve-factor-app/)
 
