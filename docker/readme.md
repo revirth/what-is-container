@@ -22,7 +22,19 @@ docker exec -it `container name` /bin/bash
 
 
 
+## Deployment
+- Scalability - docker run
 
+- Standardity - every deployment process is the same, what ever it is (nodejs, go, php, etc) 
+
+- Image - create an image, save the image, load the image in server
+
+- Configuration - containers work by config variables like `MYSQL_PASSWORD=password` 
+
+- Resources - container's data will be initialized when it starts, so it needs external storage like S3
+
+
+## Examples
 
 ### Redis
 
