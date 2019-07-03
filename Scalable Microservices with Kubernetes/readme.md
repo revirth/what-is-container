@@ -15,7 +15,8 @@ gcloud config list
 
 ### 12 Factor https://12factor.net/
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/tVU2OGq2bPzF1P" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rudiyardley/the-12-factor-app" title="The 12 Factor App" target="_blank">The 12 Factor App</a> </strong> from <strong><a href="https://www.slideshare.net/rudiyardley" target="_blank">rudiyardley</a></strong> </div>
+![https://image.slidesharecdn.com/12factor-150114020448-conversion-gate01/95/the-12-factor-app-1-638.jpg?cb=1421201591](https://www.slideshare.net/slideshow/embed_code/key/tVU2OGq2bPzF1P)
+
 ![Image result for twelve factor app](https://0901.static.prezi.com/preview/v2/7ojxhzhougi3uurlmhz57gja4d6jc3sachvcdoaizecfr3dnitcq_3_0.png)
 https://prezi.com/8uldpq91vm4e/the-twelve-factor-app/
 
@@ -191,9 +192,12 @@ Events:  <none>
 ```
 
 Config docs - http://kubernetes.io/docs/user-guide/configmap/
+
 Secrets - http://kubernetes.io/docs/user-guide/secrets/
 
-[![HTTP, HTTPS, SSL / TLS Explained](https://img.youtube.com/vi/hExRDVZHhig/0.jpg)](https://www.youtube.com/watch?v=hExRDVZHhig)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=hExRDVZHhig" target="_blank"><img src="https://img.youtube.com/vi/hExRDVZHhig/0.jpg" alt="HTTP, HTTPS, SSL / TLS Explained"></a>
+</div>
 
 ```bash
 $cat pods/secure-monolith.yaml
