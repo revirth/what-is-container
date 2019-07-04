@@ -192,9 +192,8 @@ Config docs - http://kubernetes.io/docs/user-guide/configmap/
 
 Secrets - http://kubernetes.io/docs/user-guide/secrets/
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=hExRDVZHhig" target="_blank"><img src="https://img.youtube.com/vi/hExRDVZHhig/0.jpg" alt="HTTP, HTTPS, SSL / TLS Explained"></a>
-</div>
+
+<a href="https://www.youtube.com/watch?v=hExRDVZHhig" target="_blank"><img src="https://img.youtube.com/vi/hExRDVZHhig/0.jpg" alt="HTTP, HTTPS, SSL / TLS Explained"></a>
 
 ```bash
 $cat pods/secure-monolith.yaml
