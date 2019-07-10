@@ -84,3 +84,11 @@ docker run -d \
  -p 6006:6006 \
 teamlab/pydata-tensorflow:0.1
 ```
+
+
+### Ref
+- https://www.44bits.io/ko/post/why-should-i-use-docker-container
+ ![](https://static.hubtee.com/files/cdf/cdf3ae0a6ca574c036ba35e3957f100d7d77bb6e4eed91ccb065838441188266.m.png)
+ ![](https://static.hubtee.com/files/548/54855bc2f1cbd3143832027cbbe7e651cee964e8ac83a9d86e93b75c06bccb06.m.png)
+ 
+
