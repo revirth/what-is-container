@@ -4,6 +4,12 @@
 docker run --name sql2017 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<NewStrong!Passw0rd>' -e 'MSSQL_PID=Express' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 docker exec -it sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "<NewStrong!Passw0rd>"
+1> SELECT @@VERSION
+2> GO
+------------------------------------------------------------------------
+Microsoft SQL Server 2017 (RTM-CU15-GDR) (KB4505225) - 14.0.3192.2 (X64)
+        Copyright (C) 2017 Microsoft Corporation
+        Express Edition (64-bit) on Linux (Ubuntu 16.04.6 LTS)
 
 docker cp Northwind.mdf sql2017:/var/opt/mssql/data/
 
