@@ -1,9 +1,12 @@
 ## Docker
 
 ```bash
-docker run --name sql2017 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<NewStrong!Passw0rd>' -e 'MSSQL_PID=Express' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+docker run --name sql2017 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<NewStrong!Passw0rd>' \
+           -e 'MSSQL_PID=Express' -p 1433:1433 \
+           -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
-docker exec -it sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "<NewStrong!Passw0rd>"
+docker exec -it sql2017 /opt/mssql-tools/bin/sqlcmd  \
+            -S localhost -U SA -P "<NewStrong!Passw0rd>"
 1> SELECT @@VERSION
 2> GO
 ------------------------------------------------------------------------
