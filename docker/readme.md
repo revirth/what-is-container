@@ -16,6 +16,13 @@ docker system prune
 #remove image
 docker rmi `image name`
 
+#remove all containers
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+#remove all stopped containers
+docker ps -aq -f status=exited | xargs -r docker rm 
+
 #run bash command in container
 docker exec -it `container name` /bin/bash
 ```
