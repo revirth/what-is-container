@@ -6,7 +6,6 @@ docker run -v "C:\DropboxFolderPath":/dropbox \
            --name sql2017 \
            -e 'ACCEPT_EULA=Y' \
            -e 'SA_PASSWORD=<NewStrong!Password>' \
-           -e 'MSSQL_PID=Express' \
            -p 49152:1433 \
            -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
